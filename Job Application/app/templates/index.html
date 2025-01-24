@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        td a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Job Listings</h1>
+</header>
+
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Job Title</th>
+                <th>Location</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamically load jobs -->
+            <tr>
+                <td><a href="/job/123457">Software Engineer</a></td>
+                <td>Philadelphia, PA</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td><a href="/job/123456">Nurse Practitioner</a></td>
+                <td>San Diego, CA</td>
+                <td>Inactive</td>
+            </tr>
+            <tr>
+                <td><a href="/job/123458">Truck Driver</a></td>
+                <td>Phoenix, AZ</td>
+                <td>Inactive</td>
+            </tr>
+            <tr>
+                <td><a href="/job/123459">Project Manager</a></td>
+                <td>Orlando, FL</td>
+                <td>Active</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    <p>&copy; 2025 Job Finder</p>
+</footer>
+
+</body>
+</html>
