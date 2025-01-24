@@ -1,4 +1,3 @@
-# Job-App
 # Job Listing Web Application
 
 ## Setup Instructions
